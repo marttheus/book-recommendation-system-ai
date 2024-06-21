@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendationSystemAI.Domain", "src\BookRecommendationSystemAI.Domain\BookRecommendationSystemAI.Domain.csproj", "{B9D2025A-121F-4362-AACE-F90DD8BEA8A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendationSystemAI.API", "src\BookRecommendationSystemAI.API\BookRecommendationSystemAI.API.csproj", "{9D529A28-672E-41F6-BCC2-5C7E986DFF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendationSystemAI.Infra", "src\BookRecommendationSystemAI.Infra\BookRecommendationSystemAI.Infra.csproj", "{85C642AF-D636-47C3-8E88-E5E46D99566C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{B9D2025A-121F-4362-AACE-F90DD8BEA8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D2025A-121F-4362-AACE-F90DD8BEA8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9D2025A-121F-4362-AACE-F90DD8BEA8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D529A28-672E-41F6-BCC2-5C7E986DFF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D529A28-672E-41F6-BCC2-5C7E986DFF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D529A28-672E-41F6-BCC2-5C7E986DFF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D529A28-672E-41F6-BCC2-5C7E986DFF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C642AF-D636-47C3-8E88-E5E46D99566C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C642AF-D636-47C3-8E88-E5E46D99566C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C642AF-D636-47C3-8E88-E5E46D99566C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C642AF-D636-47C3-8E88-E5E46D99566C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
